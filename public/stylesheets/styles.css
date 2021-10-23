@@ -11,16 +11,16 @@
  */
 
 /* Création de variables globales, "reboot / normalization" de certains éléments, système de grid pour le layout */
-@import "variables.css";
-@import "reboot.css";
-@import "layout.css";
+@import "./variables.css";
+@import "./reboot.css";
+@import "./layout.css";
 
 /* Il est possible de séparer sous forme de components (buttons, footer, form, modal, etc.) */
-@import "components/header.css";
-@import "components/pokemon.css";
+@import "./components/header.css";
+@import "./components/pokemon.css";
 
 /* Le style général de l'application */
-@import "style.css";
+@import "./style.css";
 
 /* Des classes utilitaires, à la fin pour donner le maximum de priorité à ces sélecteurs CSS */
-@import "utilities.css";
+@import "./utilities.css";
