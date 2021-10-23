@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="public/stylesheets/styles.css">
+    <script type="module" src="public/javascripts/app.js"></script>
+</head>
+<body>
+    <header class="top">
+        <div class="container">
+            <nav class="primary-nav">
+                <div class="logo">
+                    <a href="index.html">Pokedex</a>
+                </div>
+            </nav>
+        </div>        
+    </header>
+    <main>
+        <div class="container">
+            <div class="pokemon-filter" data-pokemon-filter>
+                <div>
+                    <button data-checked="true">All</button>
+                </div>
+            </div>
+        </div>
+        <div class="pokemon-container container">
+
+        </div>
+    </main>
+
+    <!-- TODO: Mal fait. À revoir ;-) -->
+    <div class="pokemon-modal" data-pokemon-modal>
+        <div class="pokemon-modal-dialog"></div>
+    </div>
+
+    <div class="pokemon-modal-shadow"></div>
+</body>
+</html>

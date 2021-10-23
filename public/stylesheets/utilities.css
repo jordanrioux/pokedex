@@ -1,0 +1,8 @@
+/**
+ *  Les classes utilitaires sont un cas spécial. Leur but est d'appliquer un style précis rapidement sur un élément.
+ *  Pour cette raison, l'utilisation de !important est acceptée pour s'assurer que le style ait la priorité et que
+ *  le style soit redéfinit sans trop de difficulté.
+ *
+ *  Un des standards est d'utiliser le préfix "is-*" pour représenter l'état d'un élément.
+ */
+.is-hidden { display: none !important; }
